@@ -2138,7 +2138,7 @@ input, select, textarea {
 			margin: 0 0em 2em 0;
 			padding-right: 1em;
 			top: 0.25em;
-			max-width: 130%;
+			/*max-width: 100%;*/
 		}
 		.image.lft img {
 			width: 220px;
