@@ -4081,6 +4081,7 @@ input, select, textarea {
 }
 .reference {
 	color:#21b2a6;
+	text-align: center;
 }
 .reference:hover {
 	color:#0099ff;
