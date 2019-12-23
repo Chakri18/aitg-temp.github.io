@@ -2133,7 +2133,17 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
-
+		.image.lft {
+			float: left;
+			margin: 0 0em 2em 0;
+			padding-right: 1em;
+			top: 0.25em;
+			max-width: 130%;
+		}
+		.image.lft img {
+			width: 220px;
+			height: 250px;
+		}
 /* List */
 
 	ol {
