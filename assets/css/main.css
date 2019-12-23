@@ -2126,12 +2126,14 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 3em 2em 0;
 			width: 100%;
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 300px;
+				height: 250px;
+				padding-right: 1em;
 			}
 		.image.lft {
 			float: left;
@@ -2141,8 +2143,9 @@ input, select, textarea {
 			
 		}
 		.image.lft img {
-			width: 220px;
+			width: 280px;
 			height: 250px;
+			background-size: cover;
 		}
 /* List */
 
@@ -4060,7 +4063,8 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
-.custc { text-align:center; }
+.custc { text-align:center; 
+}
 .cust2:hover { color:#21b2a6;
 }
 .cust3{
@@ -4085,4 +4089,11 @@ input, select, textarea {
 }
 .fa-color {
 		color: #1d242a; 
+}
+
+.custheader {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 1.1em;
+	letter-spacing: normal;
 }
